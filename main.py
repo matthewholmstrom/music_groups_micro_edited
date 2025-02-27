@@ -41,7 +41,7 @@ def main():
                 
                 
                 
-            sleep(30)
+            sleep(38)
             with open('response.txt', 'r') as comm_pipe2:
                 response = comm_pipe2.read()
                 print(response)
@@ -56,7 +56,7 @@ def main():
                 comm_pipe1.write("backup\n")
                 
                 
-            sleep(30)
+            sleep(37)
             with open('response.txt', 'r') as comm_pipe2:
                 response = comm_pipe2.read()
                 print(response)
@@ -69,7 +69,7 @@ def main():
                 comm_pipe1.write("restore\n")
                 
                 
-            sleep(30)
+            sleep(37)
             with open('response.txt', 'r') as comm_pipe2:
                 response = comm_pipe2.read()
                 print(response)
